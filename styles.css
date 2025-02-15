@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1b1b1b;
+    color: #f5f5f5f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+.love-notes{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+    background-color: #131212;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.658);
+}
+.love-notes h1{
+    color: #f5f5f5;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.love-notes p{
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.note {
+    background-color: #eb0d4f;
+    padding: 10px;
+    position: relative;
+    height: 350px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    flex-wrap: wrap;
+    gap: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.658);
+    color: #131212;
+}
+.note h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: "Pacifico", cursive;
+}
+.note p {
+    font-size: 1em;
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.love-notes span {
+    font-size: 0.8em;
+    font-family: "Roboto", sans-serif;
+    height: auto;
+    padding: 10px;
+    border-radius: 16px;
+    color: #f5f5f5;
+    background-color: #1b1b1b;
+    border: 1px solid #eb0d4f;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.love-notes span:hover {
+    background-color: #eb0d4f;
+    color: #f5f5f5;
+}
+.playlist-and-message{
+    width: 70%;
+    height: auto;
+    background-color: #131212;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.658);
+}
+.playlist-and-message > .header{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #111010;
+    
+}
+.header h1{
+    color: #f5f5f5;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.header p{
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.playlist{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #111010;
+
+}
+.playlist h2{
+    color: #f5f5f5;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.playlist span{
+    color: #eb0d4f;
+}
+.message{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #111010;
+}
+.message p{
+    color: #f5f5f5;
+    font-family: "Roboto", cursive;
+    font-weight: 200;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+#surpriseBtn{
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+    background-color: #eb0d4f;
+    color: #f5f5f5;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+#surpriseMessage{
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+.hiddenCuteMessage{
+    opacity: 0;
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.showCuteMessage{
+    opacity: 1;
+}
